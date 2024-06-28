@@ -21,11 +21,11 @@ const About = () => {
           <p className='py-2 text-gray-600 text-lg'>
           I am a self-motivated and hardworking individual, constantly involved in self-improvement and always ready to take up challenging tasks to test and enhance my skills further. A keen observer who believes in learning by sharing knowledge, I am skilled in C++, JavaScript, Data Structures, Algorithms, Node.js, MySQL, and front-end development in React.js. I hold a Bachelor of Technology (BTech) focused on Computer Science & Engineering from Graphic Era Hill University.
           </p>
-          <Link href='/#projects' scroll={false}>
+          {/* <Link href='/#projects' scroll={false}>
             <p className='py-2 text-[rgb(52,93,167)] underline cursor-pointer animate-pulse duration-300 text-lg font-semibold'>
               Check out my projects!
             </p>
-          </Link>
+          </Link> */}
         </div>
         <div className='w-[80%] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 '>
           <Image
